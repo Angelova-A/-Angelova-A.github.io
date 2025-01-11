@@ -1,15 +1,24 @@
 
+
+:root{
+    --back-color: #F7FFF7; 
+    --orange: #F86624; 
+    --blue: #4ECDC4; 
+    --yellow: #ffc500; 
+    --red: #EA3546; 
+}
+
 h1{
-    margin-top: 20px; 
+    margin-top: 40px; 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .audio-container p{
-    margin-top: 20px; 
+    margin-top: 40px; 
     margin-bottom: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     font-size: 28px;
     font-weight: bold;
 }
@@ -38,7 +47,7 @@ h1{
   
   }
   .gallery-container .main-video .title{
-    color: var(--onyx);
+    color: #000;
     font-size: 23px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -87,7 +96,7 @@ h1{
   
   }
   .gallery-container .video-list .vid.active{
-    background: var(--lapis);
+    background: var(--orange);
   }
   .gallery-container .video-list .vid.active .title{
     color: #fff;
@@ -110,7 +119,7 @@ h1{
     width: 100%;
     justify-content: center;
     align-items: center;
-    color: var(--onyx);
+    color: #000;
     flex-wrap: wrap;
   }
   
@@ -138,12 +147,12 @@ h1{
     font-size: 24px;
     color: transparent;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: var(--red);
+    -webkit-text-stroke-color: var(--orange);
     cursor: pointer;
   }
   
   #playbtn:hover, #playbtn2:hover, #playbtn3:hover{
-    -webkit-text-fill-color: var(--red);
+    -webkit-text-fill-color: var(--orange);
   }
   
   .info{
@@ -159,7 +168,7 @@ h1{
   
   .bar{
     --space: -4px; 
-    background-color: var(--onyx);
+    background-color: #000;
     overflow: hidden;
     left: var(--space);
     right: var(--space);
@@ -173,9 +182,16 @@ h1{
   #progress, #progress2, #progress3 {
     display: block;
     width: var(--progress,0%);
-    background-color: var(--red);
+    background-color: var(--orange);
     transition: all 1s linear;
     height: 100%;
+  }
+
+  #credits, #cred{
+    font-size: 20px;
+    font-weight: unset;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
 /*media*/ 
