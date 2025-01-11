@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/gallery.css">
+    <script src="https://kit.fontawesome.com/c65d3f55fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+         <a href="index.html" class="home-link"><img src="assets/images/seatedSha.png" alt="Home" /></a>
+         <input type="checkbox" id="mobileMenu-active" />
+         <label for="mobileMenu-active">
+             <i class="fa-solid fa-bars menu-controls open-btn"></i>
+         </label>
+         
+         <div class="links-container">
+             <label for="mobileMenu-active">
+                 <i class="fa-solid fa-xmark menu-controls close-btn"></i>
+             </label>
+             <ul>
+                
+                     <li><a href="gallery.html">Gallery</a></li>
+                     <li><a href="https://www.worldhistory.org/Set_(Egyptian_God)/" target="_blank">History</a></li>
+                     <li><a href="https://mythopedia.com/topics/set" target="_blank">Mythology</a></li>
+                     <li><a href="altar.html">Altar</a></li>
+                 
+             </ul>
+         </div>
+      
+        
+        </nav>
+     </header>
+     <div class="content-container"> 
+        <div class="side-pap left-pap">
+            <div class="title">
+                <p class="hieroglyphs">  &#x133DC; &#X1301F; </p>
+                <p class="normal">Fast Links</p>
+                <hr />
+            </div>
+            <div class="fast-links">
+                <ul>
+                    <li><a href="gallery.html">
+                        <p> <span>&#x1307C;</span> Gallery</p>
+                    </a> </li>
+                    <li><a href="index.html#library">
+                        <p> <span>&#x133DE;</span> Library</p>
+                    </a> </li>
+                   
+                    <li><a href="altar.html">
+                        <p> <span>&#x132B2;</span> Virtual Altar</p>
+                    </a> </li>
+                   
+                    <li><a href="index.html#music">
+                        <p> <span>&#x133E2;</span> Spottify Playlist</p>
+                    </a> </li>
+                    <li><a href="index.html#dates">
+                        <p> <span>&#x131F5;</span> Important Dates</p>
+                    </a> </li>
+                
+                </ul>
+            </div>
+           
+        </div>
+        <div class="middle-column">
+            <h1>Set's Gallery</h1>
+            <p>Special thanks to Joan Lansberry for <a href="http://www.joanlansberry.com/setfind/setfind.html" target="_blank">Set Finds - Gathered Ancient Images of Set</a> </p>
+            
+
+
+            <div class="gallery-container">
+                <div class="main-video">
+                    <div class="video">
+                        <video src="assets/images/video.mp4" controls muted autoplay></video>
+                        <h3 class="title">Set's Role</h3>
+                    </div>
+                </div>
+                <div class="video-list">
+                    <div class="vid active">
+                        <video src="assets/images/video.mp4" muted></video>
+                        <h3 class="title">Set's Role</h3>
+                    </div>
+                    <div class="vid">
+                        <video src="assets/images/video2.mp4" muted></video>
+                        <h3 class="title">Red in Ancient Egypt</h3>
+                    </div>
+                    <div class="vid"> 
+                        <video src="assets/images/video3.mp4" muted></video>
+                        <h3 class="title">Set and Nephthys</h3>
+                    </div>
+                    <div class="vid"> 
+                        <video src="assets/images/slideshow.mp4" muted></video>
+                        <h3 class="title">Slideshow: Images of Set</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="audio-container">
+            
+                <p>Ancient Audios</p>
+
+                <div class="audios">
+                    <div class="audio">
+                        <audio src="assets/images/audio1.mp3"  id="player"></audio>
+                        <div class="player">
+                            <div class="control">
+                                <i class="fa-solid fa-play" id="playbtn"></i>
+                            </div>
+                            <div class="info">
+                                A Prayer, In Coptic
+                                <div class="bar">
+                                    <div id="progress">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="current">
+                                0:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="audio">
+                        <audio src="assets/images/the_stele_of_kuri.mp3"  id="player2"></audio>
+                        <div class="player">
+                            <div class="control">
+                                <i class="fa-solid fa-play" id="playbtn2"></i>
+                            </div>
+                            <div class="info">
+                                The Stele Of Kuri
+                                <div class="bar">
+                                    <div id="progress2">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="current2">
+                                0:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="audio">
+                        <audio src="assets/images/m_eg.mp3"  id="player3"></audio>
+                        <div class="player">
+                            <div class="control">
+                                <i class="fa-solid fa-play" id="playbtn3"></i>
+                            </div>
+                            <div class="info">
+                               Middle Egyptian
+                                <div class="bar">
+                                    <div id="progress3">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="current3">
+                                0:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>     
+
+    <footer>
+        <p>+359 876 153 352</p> 
+        <p class="f-hg">&#x13063;</p>
+        <p>© 2025 - Adelina Angelova</p>
+        <p class="f-hg">&#x13063;</p>
+        <p>stu2401321016@uni-plovdiv.bg</p>
+    </footer>
+
+<script src="styles/script.js"></script>
+
+</body>
+</html>
